@@ -1,0 +1,11 @@
+[Unit]
+Description=Awesome Miner Remote Agent
+After=network.target
+
+[Service]
+ExecStart=/home/user/awesomeminer-remoteagent/AwesomeMiner.RemoteAgent.Linux
+Restart=on-failure
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target

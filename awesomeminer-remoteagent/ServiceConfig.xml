@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ServiceConfig>
+  <Port>9630</Port>
+  <Password></Password>
+  <LogLevel>Message</LogLevel>
+  <ProtocolVersion>Version2</ProtocolVersion>
+</ServiceConfig>

@@ -1,0 +1,36 @@
+Installation and getting started
+===============================================================================
+
+For full documentation, see:
+https://support.awesomeminer.com/support/solutions/articles/35000086210-remote-agent-for-linux
+
+Available commands
+===============================================================================
+Install Remote Agent for Linux, including automatic start on boot:
+
+sudo ./service-install.sh
+Uninstall Remote Agent:
+
+sudo ./service-uninstall.sh
+Start Remote Agent:
+
+sudo ./service-start.sh
+Stop Remote Agent, including all mining started by Remote Agent:
+
+sudo ./service-stop.sh
+View Remote Agent log output:
+
+./service-log.sh
+Connect Remote Agent to Awesome Miner via cloud
+
+sudo ./cloud-setup.sh
+Remove the connection for Remote Agent to Awesome Miner via cloud
+
+sudo ./cloud-remove.sh
+Change password of Remote Agent (also required to be entered for the Managed Host in Awesome Miner). Not applicable when using a Cloud connected setup.
+
+sudo ./AwesomeMiner.RemoteAgent.Linux /setpassword=mypass
+
+Information
+===============================================================================
+Log files are stored in /var/log/awesome/
