@@ -1,5 +1,5 @@
 # cryptocurrency-algorithms
-Cryptocuurency algorithms just for the source code
+Cryptocurrency algorithms just for the source code
 
 ofcourse the sources aren't mine so here the links
 
